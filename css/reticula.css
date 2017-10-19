@@ -99,10 +99,10 @@
   max-width: 25%;
 }
 .col-35 {
-  -ms-flex-preferred-size: 30%;
-  -webkit-flex-basis: 30%;
-  flex-basis: 30%;
-  max-width: 30%;
+  -ms-flex-preferred-size: 31%;
+  -webkit-flex-basis: 31%;
+  flex-basis: 31%;
+  max-width: 31%;
 }
 
 .col-4 {

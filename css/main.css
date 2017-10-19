@@ -49,7 +49,7 @@ h3 { color: #444; font-family: 'Montserrat', sans-serif; font-weight: 700; font-
 /*
   NAV
 */
-@media screen and ( max-width: 425px ) {
+@media screen and ( max-width: 767px ) {
   
   .nav-btn::after {
     content: "Menú";
@@ -151,22 +151,27 @@ h3 { color: #444; font-family: 'Montserrat', sans-serif; font-weight: 700; font-
 
   #header #logo { margin-bottom: 0;}
 
+  #header {
+    height: 700px;
+    padding: 50px 0;
+  }
+  #promo {padding: 135px 0;}
+
+  #footer #footer-nav li { display: block; text-align: left;}
+
+  #footer .footer-col { text-align: left;}
+  .logo {text-align: left;}
 
 }
 
 /* DESKTOP */
 @media screen and ( min-width: 1024px ) {
-  .wrap { width: 70%; margin: 0 auto; padding: 0 3.125%; }  
+  .wrap { max-width: 75%; margin: 0 auto; padding: 0 3.125%; }  
   .work-item{ padding: 0; height: 310px;} 
 
   #partners .btn { width: 40%; }
 
   .activity-item { height: 310px; }  
-
-  #footer #footer-nav li { display: block; text-align: left;}
-
-  #footer .footer-col { text-align: left;}
-
 
   #navigation.mobile-open { display: inline-block; position: relative; background-color: none; }  
 
