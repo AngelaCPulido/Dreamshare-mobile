@@ -131,9 +131,12 @@ h3 { color: #444; font-family: 'Montserrat', sans-serif; font-weight: 700; font-
   .wrap { width: 70%; margin: 0 auto; padding: 0 3.125%; }  
  .work-item{ padding: 0; height: 310px;} 
 
+ #partners .btn { width: 40%; }
+
+ .activity-item { height: 310px; }
+
 }
 
+  
 
-.displaynone{
-  display: none;
-}
+
