@@ -127,5 +127,5 @@ h3 { color: #444; font-family: 'Montserrat', sans-serif; font-weight: 700; font-
 
 /* DESKTOP */
 @media screen and ( min-width: 1024px ) {
-
+  .wrap { width: 70%; margin: 0 auto; padding: 0 3.125%; }
 }
