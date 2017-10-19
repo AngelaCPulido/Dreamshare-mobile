@@ -100,11 +100,11 @@ h3 { color: #444; font-family: 'Montserrat', sans-serif; font-weight: 700; font-
 .activity-item h4 a { font-size: 22px; color: #fff; }
 .activity-item::after { display: block; content: ""; position: absolute; left: 0; top: 0; z-index: 1; width: 100%; height: 100%; background-color: rgba(0,0,0,0.2); }
 
-#interests {}
-#interests input { width: 100%; font-size: 14px; }
-#interests input[type="text"] { margin-bottom: 15px; padding: 12px 20px; border: 1px solid #d4d4d4; background-color: #fff; box-shadow: 0 1px 2px 0 rgba(0,0,0,0.07); -webkit-border-radius: 3px;-moz-border-radius: 3px; border-radius: 3px; }
-#interests input:focus { outline: none; border-color: #666; color: #666; }
-#interests p { text-align: center; font-size: 18px; margin-bottom: 15px;}
+.interests {}
+.interests input { width: 100%; font-size: 14px; }
+.interests input[type="text"] { margin-bottom: 15px; padding: 12px 20px; border: 1px solid #d4d4d4; background-color: #fff; box-shadow: 0 1px 2px 0 rgba(0,0,0,0.07); -webkit-border-radius: 3px;-moz-border-radius: 3px; border-radius: 3px; }
+.interests input:focus { outline: none; border-color: #666; color: #666; }
+.interests p { text-align: center; font-size: 18px; margin-bottom: 15px;}
 
 /*
   FOOTER
@@ -129,11 +129,16 @@ h3 { color: #444; font-family: 'Montserrat', sans-serif; font-weight: 700; font-
 /* DESKTOP */
 @media screen and ( min-width: 1024px ) {
   .wrap { width: 70%; margin: 0 auto; padding: 0 3.125%; }  
- .work-item{ padding: 0; height: 310px;} 
+  .work-item{ padding: 0; height: 310px;} 
 
- #partners .btn { width: 40%; }
+  #partners .btn { width: 40%; }
 
- .activity-item { height: 310px; }
+  .activity-item { height: 310px; }
+
+  .interests input { margin-left: 2%; }  
+
+  .interests input[type="text"] { margin-bottom: 0;}
+
 
 }
 
