@@ -134,7 +134,9 @@ h3 { color: #444; font-family: 'Montserrat', sans-serif; font-weight: 700; font-
 
   #partners .btn { width: 40%; }
 
-  .activity-item { height: 310px; }   
+  .activity-item { height: 310px; }  
+
+  #footer #footer-nav li { display: block; text-align: center;}
 
 }
 
